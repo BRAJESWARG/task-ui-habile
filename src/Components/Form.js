@@ -84,7 +84,7 @@ function Form() {
                                                 name={el.fieldId}
                                                 value={values[el.fieldId] || ''}
                                                 onChange={handleChange}
-                                                style={{width: "100%"}}
+                                                // style={{width: "100%"}}
                                             />
                                         </span>
                                     </div>
